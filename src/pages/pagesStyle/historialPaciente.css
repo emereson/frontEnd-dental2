@@ -1,0 +1,56 @@
+.HistorialPacientes__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 1em;
+  padding-top: 3em;
+  gap: 20px;
+}
+
+.HistorialPacientes__sectionOne {
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.HistorialPacientes__sectionOne h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.HistorialPacientes__sectionOne button {
+  padding: 0.8em 1em;
+  background-color: var(--text-color-white);
+  color: var(--text-color-darkSkyBlue);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid var(--text-color-darkSkyBlue);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.HistorialPacientes__sectionOne button:hover {
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+}
+
+/* HistorialPacientes__sectionTwo */
+
+.HistorialPacientes__sectionTwo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.HistorialPacientes__sectionTwo h3 {
+  color: var(--text-color-darkSkyBlue);
+  font-size: 20px;
+}

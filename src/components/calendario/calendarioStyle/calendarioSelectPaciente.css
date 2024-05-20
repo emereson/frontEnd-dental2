@@ -1,0 +1,105 @@
+.calendarioSelectPaciente__containerFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.32);
+  z-index: 30;
+  transform: translateY(0);
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+.calendarioSelectPaciente__closeContainer {
+  transform: translateY(100%);
+}
+
+.calendarioSelectPaciente__container {
+  position: absolute;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  height: 60%;
+  background-color: var(--body-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 1em;
+}
+
+/* calendarioSelectPaciente__sectionOne */
+
+.calendarioSelectPaciente__sectionOne {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+.calendarioSelectPaciente__sectionOne h1 {
+  font-size: 35px;
+}
+.calendarioSelectPaciente__sectionOne article {
+  display: flex;
+  gap: 20px;
+}
+
+.calendarioSelectPaciente__sectionOne button {
+  padding: 0.8em 1em;
+  background-color: var(--text-color-white);
+  color: var(--text-color-darkSkyBlue);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid var(--text-color-darkSkyBlue);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.calendarioSelectPaciente__sectionOne button:hover {
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+}
+
+.calendarioSelectPaciente__closeButton {
+  border: 2px solid var(--text-color-red) !important;
+  color: var(--text-color-red) !important;
+}
+
+.calendarioSelectPaciente__closeButton:hover {
+  background-color: var(--body-red) !important;
+  color: var(--text-color-white) !important;
+}
+
+/* calendarioSelectPaciente__form */
+
+.calendarioSelectPaciente__form {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 35px;
+  border: 2px solid var(--text-color-darkSkyBlue);
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.calendarioSelectPaciente__form input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+}
+
+.calendarioSelectPaciente__form button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+  padding: 0 10px;
+  cursor: pointer;
+}

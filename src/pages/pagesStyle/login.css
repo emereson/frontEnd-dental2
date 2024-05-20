@@ -1,0 +1,77 @@
+.longin__container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    z-index: 50;
+    background-color: var(--text-color-white);
+}
+
+.login__form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.login__form h1 {
+    font-size: 25px;
+    color: var(--text-color-darkSkyBlue);
+}
+
+.login__form img {
+    width: 250px;
+    margin-bottom: -2em;
+}
+
+.login__div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+}
+
+.login__div label {
+    color: var(--text-color-darkSkyBlue);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login__div input {
+    border: 0;
+    border-bottom: 1px solid var(--text-color-darkSkyBlue);
+    font-size: 18px;
+    background-color: transparent;
+    color: var(--text-color-darkSkyBlue);
+    border-radius: 5px;
+}
+
+.login__div input:hover {
+    background-color: #1dbfd521;
+}
+
+
+.login__form button {
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 2px solid var(--text-color-darkSkyBlue);
+    color: var(--text-color-darkSkyBlue);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.login__form button:hover {
+    background-color: var(--text-color-darkSkyBlue);
+    color: var(--text-color-white);
+    transition: 0.5s ease;
+
+}

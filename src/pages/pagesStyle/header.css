@@ -1,0 +1,40 @@
+.header__container {
+  position: relative;
+  width: 60px;
+  height: 100vh;
+  background-color: var(--text-color-darkSkyBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2em;
+  padding-top: 2em;
+  overflow: hidden;
+  transition: 0.3s ease;
+  z-index: 20;
+}
+
+.header__container:hover {
+  width: 240px;
+}
+
+.header__link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em 1em !important;
+  color: var(--text-color-white);
+}
+
+.header__link:hover {
+  background-color: rgba(0, 0, 0, 0.164);
+}
+
+.header__link i {
+  font-size: 30px;
+}
+
+.header__link p {
+  font-size: 18px;
+  font-weight: 500;
+}

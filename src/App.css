@@ -1,0 +1,13 @@
+.sectionvoz {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionvoz button {
+  background-color: var(--body-black);
+  color: var(--text-color-white);
+  border: 1px solid var(--body-white);
+  padding: 10px;
+  cursor: pointer;
+}

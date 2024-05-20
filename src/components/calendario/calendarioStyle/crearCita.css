@@ -1,0 +1,58 @@
+.crearCita__form {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-white);
+  padding: 1em;
+  border-radius: 10px;
+  gap: 1em;
+}
+
+.crearCita__form h3 {
+  text-align: center;
+}
+.crearCita__sectionOne {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.crearCita__div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.crearCita__div label {
+  font-weight: 500;
+}
+
+.crearCita__div input {
+  padding: 0.6em 0.4em;
+  border: 1px solid var(--text-color-gray);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.crearCita__div input:hover {
+  border: 1px solid var(--text-color-darkSkyBlue);
+}
+
+.crearCita__form button {
+  padding: 0.5em 1em;
+  background-color: var(--text-color-white);
+  color: var(--text-color-darkSkyBlue);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid var(--text-color-darkSkyBlue);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.crearCita__form button:hover {
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+}

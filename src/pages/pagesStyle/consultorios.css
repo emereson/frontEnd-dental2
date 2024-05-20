@@ -1,0 +1,59 @@
+.consultorios__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 1em;
+  padding-top: 3em;
+  background-color: var(--body-light);
+  overflow: hidden;
+  gap: 10px;
+}
+
+.consultorio__sectionOne {
+  width: 100%;
+}
+
+.consultorio__sectionOne h1 {
+  font-size: 35px;
+}
+
+/* users__sectionTwo */
+
+.consultorio__sectionTwo {
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border: 2px solid var(--text-color-gray);
+  border-radius: 5px;
+}
+
+.consultorio__sectionTwo h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.consultorio__sectionTwo button {
+  position: absolute;
+  right: 0;
+  top: -100%;
+  padding: 0.8em 1em;
+  background-color: var(--text-color-white);
+  color: var(--text-color-darkSkyBlue);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid var(--text-color-darkSkyBlue);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.consultorio__sectionTwo button:hover {
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+}

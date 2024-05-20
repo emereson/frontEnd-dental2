@@ -1,0 +1,91 @@
+.consultas__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 1em;
+  padding-top: 3em;
+  background-color: var(--body-light);
+  overflow: hidden;
+  gap: 10px;
+}
+
+.consultas__sectionOne {
+  width: 100%;
+}
+
+.consultas__sectionOne h1 {
+  font-size: 35px;
+}
+
+/* consultas__sectionTwo */
+
+.consultas__sectionTwo {
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border: 2px solid var(--text-color-gray);
+  border-radius: 5px;
+}
+
+.consultas__sectionTwo h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.consultas__sectionTwo button {
+  position: absolute;
+  right: 0;
+  top: -100%;
+  padding: 0.8em 1em;
+  background-color: var(--text-color-white);
+  color: var(--text-color-darkSkyBlue);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid var(--text-color-darkSkyBlue);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.consultas__sectionTwo button:hover {
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+}
+
+/* .consultas__sectionThree */
+
+.consultas__sectionThree {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.consultas__sectionThree form {
+  display: flex;
+  border: 2px solid var(--text-color-darkSkyBlue);
+  border-radius: 5px;
+}
+
+.consultas__sectionThree input {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.consultas__sectionThree button {
+  height: 100%;
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--text-color-darkSkyBlue);
+  cursor: pointer;
+  padding: 0 5px;
+  transition: 0.4s ease;
+}

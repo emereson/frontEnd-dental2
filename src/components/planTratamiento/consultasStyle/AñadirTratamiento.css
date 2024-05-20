@@ -1,0 +1,78 @@
+.AñadirTratamiento__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.473);
+  z-index: 30;
+  transform: translateY(0);
+  transition: 0.4s ease;
+}
+.AñadirTratamiento__closeContainer {
+  transform: translateY(-100%);
+}
+
+.AñadirTratamiento__form {
+  width: 100%;
+  max-width: 490px;
+  background-color: var(--body-white);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.AñadirTratamientoForm__sectionOne {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.AñadirTratamiento__form h2 {
+  font-size: 20px;
+  color: var(--text-color-gray);
+}
+
+.AñadirTratamientoForm__div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.AñadirTratamientoForm__div label {
+  font-size: 16px;
+}
+
+.AñadirTratamientoForm__div input {
+  font-size: 16px;
+  height: 40px;
+  padding: 10px;
+}
+.AñadirTratamientoForm__div select {
+  font-size: 16px;
+  height: 40px;
+  padding: 10px;
+}
+
+.AñadirTratamientoForm__sectionTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.AñadirTratamientoForm__sectionTwo button {
+  background-color: var(--text-color-darkSkyBlue);
+  color: var(--text-color-white);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}

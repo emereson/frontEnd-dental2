@@ -1,0 +1,49 @@
+.table__container {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: auto;
+}
+
+.table__container th,
+.table__container td {
+  border: 1px solid #b6b6b6;
+  padding: 8px;
+  text-align: left;
+}
+
+.table__container td {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.table__container th {
+  background-color: #31d1e043;
+  padding: 0.5em 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tablle__tdButton {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center !important;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: #f44336;
+}

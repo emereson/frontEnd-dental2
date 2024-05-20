@@ -1,0 +1,74 @@
+.odontograma__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.903);
+  z-index: 30;
+  transform: translateX(0);
+  transition: 0.4s ease;
+}
+
+.odontograma__closeContainer {
+  transform: translateX(100%);
+}
+
+.odontograma__sectionOne {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.odontograma__sectionOne__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  gap: 10px;
+}
+.odontograma__sectionOne__article h2 {
+  font-size: 30px;
+}
+
+.odontograma__sectionOne__article p {
+  font-size: 25px;
+}
+.odontograma__sectionOne__div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  padding-right: 0;
+}
+
+.cardDiente__container {
+  width: 100%;
+  height: 300px;
+}
+.cardDiente__container canvas {
+  width: 100%;
+}
+
+.odontograma__sectionOne button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 30px;
+  background-color: var(--body-white);
+  color: var(--text-color-black);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.odontograma__sectionOne__buttons {
+  display: flex;
+  gap: 2em;
+}
