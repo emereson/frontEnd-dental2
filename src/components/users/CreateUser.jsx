@@ -131,11 +131,11 @@ const CreateUser = ({ crud, setCrud }) => {
               />
             </div>
             <div className="crud__div">
-              <label htmlFor="contraseña">Carnet de Identidad:</label>
+              <label htmlFor="contraseña">Contraseña:</label>
               <input
                 {...register('contraseña')}
                 id="contraseña"
-                type="number"
+                type="password"
                 required
               />
             </div>
